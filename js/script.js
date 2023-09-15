@@ -5,6 +5,7 @@ const globalState = {
 //display popular movie
 const displayPopularMovies = async () => {
   const { results } = await fetchAPIData("movie/popular");
+  console.log(results);
 
   results.forEach((movie) => {
     console.log(movie);
@@ -31,10 +32,7 @@ const displayPopularMovies = async () => {
           </a>
           <div class="card-body">
             <h5 class="card-title">${movie.title}</h5>
-            <p class="card-text">
-              <small class="text-muted">Release: ${movie.release_date}</small>
-            </p>
-            </div>
+           </div>
     `;
 
     document.querySelector("#popular-movies").appendChild(div);
