@@ -2,9 +2,16 @@ const globalState = {
   currentPage: window.location.pathname,
 };
 
+//fetch popular movie
+
+const displayPopularMovies = async () => {
+  const result = await fetchAPIData("movie/popular");
+  console.log(result);
+};
+
 //fetch API Data
 const fetchAPIData = async (endpoint) => {
-  const API_KEY = "highlightActiveLink";
+  const API_KEY = "1bc3461e4822d54b94972dbb968e2e0e";
   const API_URL = "https://api.themoviedb.org/3/";
 
   const response = await fetch(
@@ -31,6 +38,7 @@ const init = () => {
   switch (globalState.currentPage) {
     case "/":
     case "/index.html":
+      displayPopularMovies();
       console.log("Home");
       break;
     case "/shows.html":
