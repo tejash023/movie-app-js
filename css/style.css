@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;700&display=swap");
+
 *,
 *::before,
 *::after {
@@ -12,7 +14,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   background: var(--color-primary);
   color: #fff;
@@ -87,7 +89,9 @@ ul {
 
 .main-header {
   padding: 20px 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgb(0 0 0);
+
+  z-index: 100;
 }
 
 .main-header .logo {
