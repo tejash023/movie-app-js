@@ -1,3 +1,3 @@
 # Movie App
 
-## Movie Search app built on vanilla js
+## Movie and TV Shows app built using TMDB api with vanilla js
