@@ -6,4 +6,4 @@
 
 ## User can mark a movie/tv show as favorite
 
-## User can navigate to movie/tv show details page once clicked on particular movie card
+## User can navigate to movie/tv show details page once clicked on particular movie cards
