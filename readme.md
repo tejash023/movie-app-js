@@ -1,6 +1,6 @@
 # Movie Application 
 
-### Movie and TV Shows app built using TMDB api with vanilla js
+### Movie and TV Shows app built using TMDB API with vanilla JS
 
 ### User can search movies and tv shows using the inbuilt search box
 
